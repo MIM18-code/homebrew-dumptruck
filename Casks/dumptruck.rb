@@ -7,8 +7,12 @@ cask "dumptruck" do
   desc "Checksum-verified camera media offloader with offload reports and ASC MHL"
   homepage "https://github.com/MIM18-code/dumptruck"
 
+  livecheck do
+    skip "Beta builds are GitHub prereleases; bump this cask by hand"
+  end
+
   depends_on arch: :arm64
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Dumptruck.app"
 
