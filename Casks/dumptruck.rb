@@ -1,6 +1,6 @@
 cask "dumptruck" do
-  version "0.5.6-beta"
-  sha256 "64b9d0af0f8a3f969881068a93a19c18e1ea841a4a3448dd22d3e1c73a4b1a39"
+  version "0.5.7-beta"
+  sha256 "a334b3303742fb98a05c2c8fbf045438a2a5610ddade3375be484e249e09f29f"
 
   url "https://github.com/MIM18-code/dumptruck/releases/download/v#{version}/Dumptruck-#{version}-arm64.dmg"
   name "Dumptruck"
@@ -20,9 +20,4 @@ cask "dumptruck" do
     "~/Library/Application Support/Dumptruck",
     "~/Library/Preferences/tv.mindinmotion.dumptruck.plist",
   ]
-
-  caveats <<~EOS
-    ARRIRAW metadata and thumbnails need the ARRI Reference Tool, installed
-    separately. Copying and verification do not.
-  EOS
 end
