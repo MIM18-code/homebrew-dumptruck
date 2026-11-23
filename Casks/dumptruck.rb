@@ -1,6 +1,6 @@
 cask "dumptruck" do
-  version "0.6.3-beta"
-  sha256 "4f03fb21ac01d1aa3253dc36c61b9d99f586f362e0d5aafc103ef3dee5d09073"
+  version "0.6.4-beta"
+  sha256 "467883b25d30210582cdb3a92120719f5d66ec48e48a7148a6decca4dd6c858c"
 
   url "https://github.com/MIM18-code/dumptruck/releases/download/v#{version}/Dumptruck-#{version}-arm64.dmg"
   name "Dumptruck"
